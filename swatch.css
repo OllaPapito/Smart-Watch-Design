@@ -1,0 +1,196 @@
+body {
+    display: flex;
+    background-color: #26282b;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.display {
+    height: 800px;
+    width: 600px;
+    display: block;
+    border-radius: 60px;
+    border: 3px solid #383a3b;
+    background-image: linear-gradient(#33393e, #242629);
+}
+
+.info {
+    background-color: #333537;
+    display: flex;
+    height: 50px;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 60px;
+    align-items: center;
+    margin-left: 28px;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.rel {
+    display: flex;
+    height: 35px;
+    padding: 30px;
+    font-family: 'Russo One', sans-serif;
+    background: linear-gradient(-135deg, #7B68EE, #DC143C);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rel img {
+    padding: 14px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.options img {
+    padding: 14px;
+}
+
+.call {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #2f3139;
+    background-image: linear-gradient(#33393e, #242629);
+    border-radius: 50%;
+    box-shadow: 0px 5px 12px #323437;
+}
+
+.emaill {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #2f3139;
+    background-image: linear-gradient(#33393e, #242629);
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px #323437;
+}
+
+.web {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #2f3139;
+    background-image: linear-gradient(#33393e, #242629);
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px #323437;
+}
+
+.digitall {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #2f3139;
+    background-image: linear-gradient(#33393e, #242629);
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px #323437;
+}
+
+
+.analogic {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #2f3139;
+    background-image: linear-gradient(#33393e, #242629);
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px #323437;
+}
+
+.area {
+    width: 400px;
+    height: 400px;
+}
+
+/* SMART WATCH */
+
+.relogio {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 22%;
+    background-image: url(images/transferir.webp);
+    background-position: right;
+}
+
+.riscos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 50%;
+    padding-top: 50%;
+    margin-top: -3px;
+}
+.risco {
+    width: 145px;
+    height: 5px;
+    position: absolute;
+    transform-origin: left;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.risco .ponto {
+    width: 10px;
+    height: 200%;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.ponteiros {
+    margin-top: 195px;
+    margin-right: 2000px;
+}
+.p {
+    transform-origin: left;
+    transform: rotate(0deg);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.p_s {
+    width: 100px;
+    height: 3px;
+    background-color: #F00;
+}
+.p_m {
+    width: 120px;
+    height: 7px;
+    background-color: #FFF;
+}
+.p_h {
+    width: 70px;
+    height: 10px;
+    background-color: #FFF;
+}
+.encaixe {
+    width: 20px;
+    height: 20px;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+.digital {
+    color: #FFF;
+    font-size: 130px;
+    margin-top: -450px;
+    margin-left: 6%;
+    color: #3da1f4;
+    font-family: 'Russo One', sans-serif;
+    display: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
